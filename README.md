@@ -1,8 +1,8 @@
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/f8198239-4cda-404c-8559-359e41859679" />
 
-COS Coats App – Overview
 
 This project is a Flutter web and mobile app that displays COS wool coats using scraped product data.
+  Here is the URL: https://www.cos.com/en-us/women/coats-and-jackets/wool-coats 
 
 All web scraping logic is written in Python and lives outside the Flutter app.
 
@@ -25,5 +25,7 @@ ProductDetailScreen handles the image carousel, color selection, size availabili
 The app theme and colors are defined in lib/theme/app_theme.dart.
 
 Assets are registered in pubspec.yaml.
+
+Thank you!
 
 <img width="2880" height="1502" alt="image" src="https://github.com/user-attachments/assets/98bc73fa-4810-49c3-8419-503fa6863a97" />
