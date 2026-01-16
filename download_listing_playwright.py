@@ -7,18 +7,11 @@ def main() -> None:
         browser = p.chromium.launch(headless=False)
         context = browser.new_context(locale="en-US")
         page = context.new_page()
-
         page.goto(URL, wait_until="load", timeout=60000)
-
-        # many sites never go "networkidle" due to analytics
-        page.wait_for_timeout(4000)  # 4 seconds
-
+        page.wait_for_timeout(4000)  # 4 secs
         html = page.content()
         with open("listing_rendered.html", "w", encoding="utf-8") as f:
             f.write(html)
-
-        print("Saved rendered HTML to listing_rendered.html")
-
         context.close()
         browser.close()
 
