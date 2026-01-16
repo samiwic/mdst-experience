@@ -1,0 +1,291 @@
+name: cos_coats_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/products_with_details.json
+    - assets/images/1291628001/STEEL/4.jpg
+    - assets/images/1291628001/STEEL/5.jpg
+    - assets/images/1291628001/STEEL/6.jpg
+    - assets/images/1291628001/STEEL/2.jpg
+    - assets/images/1291628001/STEEL/3.jpg
+    - assets/images/1291628001/STEEL/1.jpg
+    - assets/images/1317049001/BLACK/4.jpg
+    - assets/images/1317049001/BLACK/5.jpg
+    - assets/images/1317049001/BLACK/6.jpg
+    - assets/images/1317049001/BLACK/2.jpg
+    - assets/images/1317049001/BLACK/3.jpg
+    - assets/images/1317049001/BLACK/1.jpg
+    - assets/images/1298577001/CAMEL/4.jpg
+    - assets/images/1298577001/CAMEL/5.jpg
+    - assets/images/1298577001/CAMEL/6.jpg
+    - assets/images/1298577001/CAMEL/2.jpg
+    - assets/images/1298577001/CAMEL/3.jpg
+    - assets/images/1298577001/CAMEL/1.jpg
+    - assets/images/1298577001/DARK_GREEN/4.jpg
+    - assets/images/1298577001/DARK_GREEN/5.jpg
+    - assets/images/1298577001/DARK_GREEN/6.jpg
+    - assets/images/1298577001/DARK_GREEN/2.jpg
+    - assets/images/1298577001/DARK_GREEN/3.jpg
+    - assets/images/1298577001/DARK_GREEN/1.jpg
+    - assets/images/1297821001/DARK_BROWN/4.jpg
+    - assets/images/1297821001/DARK_BROWN/5.jpg
+    - assets/images/1297821001/DARK_BROWN/6.jpg
+    - assets/images/1297821001/DARK_BROWN/2.jpg
+    - assets/images/1297821001/DARK_BROWN/3.jpg
+    - assets/images/1297821001/DARK_BROWN/1.jpg
+    - assets/images/1297821001/BLACK/4.jpg
+    - assets/images/1297821001/BLACK/5.jpg
+    - assets/images/1297821001/BLACK/6.jpg
+    - assets/images/1297821001/BLACK/2.jpg
+    - assets/images/1297821001/BLACK/3.jpg
+    - assets/images/1297821001/BLACK/1.jpg
+    - assets/images/1321328001/DARK-BROWN_MELANGE/4.jpg
+    - assets/images/1321328001/DARK-BROWN_MELANGE/5.jpg
+    - assets/images/1321328001/DARK-BROWN_MELANGE/6.jpg
+    - assets/images/1321328001/DARK-BROWN_MELANGE/2.jpg
+    - assets/images/1321328001/DARK-BROWN_MELANGE/3.jpg
+    - assets/images/1321328001/DARK-BROWN_MELANGE/1.jpg
+    - assets/images/1327490001/DARK_GRAY/4.jpg
+    - assets/images/1327490001/DARK_GRAY/5.jpg
+    - assets/images/1327490001/DARK_GRAY/6.jpg
+    - assets/images/1327490001/DARK_GRAY/2.jpg
+    - assets/images/1327490001/DARK_GRAY/3.jpg
+    - assets/images/1327490001/DARK_GRAY/1.jpg
+    - assets/images/1327490001/NAVY/4.jpg
+    - assets/images/1327490001/NAVY/5.jpg
+    - assets/images/1327490001/NAVY/6.jpg
+    - assets/images/1327490001/NAVY/2.jpg
+    - assets/images/1327490001/NAVY/3.jpg
+    - assets/images/1327490001/NAVY/1.jpg
+    - assets/images/1291632001/MIDNIGHT/4.jpg
+    - assets/images/1291632001/MIDNIGHT/5.jpg
+    - assets/images/1291632001/MIDNIGHT/6.jpg
+    - assets/images/1291632001/MIDNIGHT/2.jpg
+    - assets/images/1291632001/MIDNIGHT/3.jpg
+    - assets/images/1291632001/MIDNIGHT/1.jpg
+    - assets/images/1291632001/CHOCOLATE/4.jpg
+    - assets/images/1291632001/CHOCOLATE/5.jpg
+    - assets/images/1291632001/CHOCOLATE/6.jpg
+    - assets/images/1291632001/CHOCOLATE/2.jpg
+    - assets/images/1291632001/CHOCOLATE/3.jpg
+    - assets/images/1291632001/CHOCOLATE/1.jpg
+    - assets/images/1293753001/GRAY/4.jpg
+    - assets/images/1293753001/GRAY/5.jpg
+    - assets/images/1293753001/GRAY/6.jpg
+    - assets/images/1293753001/GRAY/2.jpg
+    - assets/images/1293753001/GRAY/3.jpg
+    - assets/images/1293753001/GRAY/1.jpg
+    - assets/images/1293753001/BEIGE_CHECKED/4.jpg
+    - assets/images/1293753001/BEIGE_CHECKED/5.jpg
+    - assets/images/1293753001/BEIGE_CHECKED/6.jpg
+    - assets/images/1293753001/BEIGE_CHECKED/2.jpg
+    - assets/images/1293753001/BEIGE_CHECKED/3.jpg
+    - assets/images/1293753001/BEIGE_CHECKED/1.jpg
+    - assets/images/1293753001/BLACK/4.jpg
+    - assets/images/1293753001/BLACK/5.jpg
+    - assets/images/1293753001/BLACK/6.jpg
+    - assets/images/1293753001/BLACK/2.jpg
+    - assets/images/1293753001/BLACK/3.jpg
+    - assets/images/1293753001/BLACK/1.jpg
+    - assets/images/1321637001/BROWN/4.jpg
+    - assets/images/1321637001/BROWN/5.jpg
+    - assets/images/1321637001/BROWN/6.jpg
+    - assets/images/1321637001/BROWN/2.jpg
+    - assets/images/1321637001/BROWN/3.jpg
+    - assets/images/1321637001/BROWN/1.jpg
+    - assets/images/1313785002/CREAM/4.jpg
+    - assets/images/1313785002/CREAM/5.jpg
+    - assets/images/1313785002/CREAM/6.jpg
+    - assets/images/1313785002/CREAM/2.jpg
+    - assets/images/1313785002/CREAM/3.jpg
+    - assets/images/1313785002/CREAM/1.jpg
+    - assets/images/1293754001/LIGHT_BEIGE/4.jpg
+    - assets/images/1293754001/LIGHT_BEIGE/5.jpg
+    - assets/images/1293754001/LIGHT_BEIGE/6.jpg
+    - assets/images/1293754001/LIGHT_BEIGE/2.jpg
+    - assets/images/1293754001/LIGHT_BEIGE/3.jpg
+    - assets/images/1293754001/LIGHT_BEIGE/1.jpg
+    - assets/images/1293754001/BLACK/4.jpg
+    - assets/images/1293754001/BLACK/5.jpg
+    - assets/images/1293754001/BLACK/6.jpg
+    - assets/images/1293754001/BLACK/2.jpg
+    - assets/images/1293754001/BLACK/3.jpg
+    - assets/images/1293754001/BLACK/1.jpg
+    - assets/images/1308257001/DARK-GRAY_MELANGE/4.jpg
+    - assets/images/1308257001/DARK-GRAY_MELANGE/5.jpg
+    - assets/images/1308257001/DARK-GRAY_MELANGE/6.jpg
+    - assets/images/1308257001/DARK-GRAY_MELANGE/2.jpg
+    - assets/images/1308257001/DARK-GRAY_MELANGE/3.jpg
+    - assets/images/1308257001/DARK-GRAY_MELANGE/1.jpg
+    - assets/images/1308257001/BEIGE_MELANGE/4.jpg
+    - assets/images/1308257001/BEIGE_MELANGE/5.jpg
+    - assets/images/1308257001/BEIGE_MELANGE/6.jpg
+    - assets/images/1308257001/BEIGE_MELANGE/2.jpg
+    - assets/images/1308257001/BEIGE_MELANGE/3.jpg
+    - assets/images/1308257001/BEIGE_MELANGE/1.jpg
+    - assets/images/1298577004/CAMEL/4.jpg
+    - assets/images/1298577004/CAMEL/5.jpg
+    - assets/images/1298577004/CAMEL/6.jpg
+    - assets/images/1298577004/CAMEL/2.jpg
+    - assets/images/1298577004/CAMEL/3.jpg
+    - assets/images/1298577004/CAMEL/1.jpg
+    - assets/images/1298577004/DARK_GREEN/4.jpg
+    - assets/images/1298577004/DARK_GREEN/5.jpg
+    - assets/images/1298577004/DARK_GREEN/6.jpg
+    - assets/images/1298577004/DARK_GREEN/2.jpg
+    - assets/images/1298577004/DARK_GREEN/3.jpg
+    - assets/images/1298577004/DARK_GREEN/1.jpg
+    - assets/images/1317051001/GRAY_MELANGE/4.jpg
+    - assets/images/1317051001/GRAY_MELANGE/5.jpg
+    - assets/images/1317051001/GRAY_MELANGE/6.jpg
+    - assets/images/1317051001/GRAY_MELANGE/2.jpg
+    - assets/images/1317051001/GRAY_MELANGE/3.jpg
+    - assets/images/1317051001/GRAY_MELANGE/1.jpg
+    - assets/images/1327490002/DARK_GRAY/4.jpg
+    - assets/images/1327490002/DARK_GRAY/5.jpg
+    - assets/images/1327490002/DARK_GRAY/6.jpg
+    - assets/images/1327490002/DARK_GRAY/2.jpg
+    - assets/images/1327490002/DARK_GRAY/3.jpg
+    - assets/images/1327490002/DARK_GRAY/1.jpg
+    - assets/images/1327490002/NAVY/4.jpg
+    - assets/images/1327490002/NAVY/5.jpg
+    - assets/images/1327490002/NAVY/6.jpg
+    - assets/images/1327490002/NAVY/2.jpg
+    - assets/images/1327490002/NAVY/3.jpg
+    - assets/images/1327490002/NAVY/1.jpg
+    - assets/images/1322571001/GRAY/4.jpg
+    - assets/images/1322571001/GRAY/5.jpg
+    - assets/images/1322571001/GRAY/6.jpg
+    - assets/images/1322571001/GRAY/2.jpg
+    - assets/images/1322571001/GRAY/3.jpg
+    - assets/images/1322571001/GRAY/1.jpg
+    - assets/images/1314316001/LIGHT_BEIGE/4.jpg
+    - assets/images/1314316001/LIGHT_BEIGE/5.jpg
+    - assets/images/1314316001/LIGHT_BEIGE/6.jpg
+    - assets/images/1314316001/LIGHT_BEIGE/2.jpg
+    - assets/images/1314316001/LIGHT_BEIGE/3.jpg
+    - assets/images/1314316001/LIGHT_BEIGE/1.jpg
+    - assets/images/1291632002/MIDNIGHT/4.jpg
+    - assets/images/1291632002/MIDNIGHT/5.jpg
+    - assets/images/1291632002/MIDNIGHT/6.jpg
+    - assets/images/1291632002/MIDNIGHT/2.jpg
+    - assets/images/1291632002/MIDNIGHT/3.jpg
+    - assets/images/1291632002/MIDNIGHT/1.jpg
+    - assets/images/1291632002/CHOCOLATE/4.jpg
+    - assets/images/1291632002/CHOCOLATE/5.jpg
+    - assets/images/1291632002/CHOCOLATE/6.jpg
+    - assets/images/1291632002/CHOCOLATE/2.jpg
+    - assets/images/1291632002/CHOCOLATE/3.jpg
+    - assets/images/1291632002/CHOCOLATE/1.jpg
+    - assets/images/1322684001/CHARCOAL/4.jpg
+    - assets/images/1322684001/CHARCOAL/5.jpg
+    - assets/images/1322684001/CHARCOAL/6.jpg
+    - assets/images/1322684001/CHARCOAL/2.jpg
+    - assets/images/1322684001/CHARCOAL/3.jpg
+    - assets/images/1322684001/CHARCOAL/1.jpg
+    - assets/images/1293753003/GRAY/4.jpg
+    - assets/images/1293753003/GRAY/5.jpg
+    - assets/images/1293753003/GRAY/6.jpg
+    - assets/images/1293753003/GRAY/2.jpg
+    - assets/images/1293753003/GRAY/3.jpg
+    - assets/images/1293753003/GRAY/1.jpg
+    - assets/images/1293753003/BEIGE_CHECKED/4.jpg
+    - assets/images/1293753003/BEIGE_CHECKED/5.jpg
+    - assets/images/1293753003/BEIGE_CHECKED/6.jpg
+    - assets/images/1293753003/BEIGE_CHECKED/2.jpg
+    - assets/images/1293753003/BEIGE_CHECKED/3.jpg
+    - assets/images/1293753003/BEIGE_CHECKED/1.jpg
+    - assets/images/1293753003/BLACK/4.jpg
+    - assets/images/1293753003/BLACK/5.jpg
+    - assets/images/1293753003/BLACK/6.jpg
+    - assets/images/1293753003/BLACK/2.jpg
+    - assets/images/1293753003/BLACK/3.jpg
+    - assets/images/1293753003/BLACK/1.jpg
+
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

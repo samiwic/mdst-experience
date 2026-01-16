@@ -1,0 +1,5 @@
+2026/01/16-01:14:06.568 13ea087 Reusing MANIFEST /Users/samiraa/Desktop/mdst exercise/pw_profile_cos/Default/Local Storage/leveldb/MANIFEST-000001
+2026/01/16-01:14:06.572 13ea087 Recovering log #18
+2026/01/16-01:14:06.572 13ea087 Level-0 table #21: started
+2026/01/16-01:14:06.581 13ea087 Level-0 table #21: 24816 bytes OK
+2026/01/16-01:14:06.585 13ea087 Delete type=0 #18
